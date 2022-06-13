@@ -70,6 +70,7 @@
 	    event.preventDefault();
 
 	    var href = $.attr(this, 'href');
+		$('#ftco-nav').removeClass('show')
 
 	    $('html, body').animate({
 	        scrollTop: $($.attr(this, 'href')).offset().top - 70
